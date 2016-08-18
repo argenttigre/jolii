@@ -138,3 +138,15 @@ a: hover, active { color:#29C2E8;
 			display:compact;
 			align-self:flex-start;
 }
+
+#header_imgs {
+    position: relative;
+}
+#header_imgs > div {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
