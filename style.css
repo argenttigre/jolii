@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 	color: #990D0F;
+		font-size: 10px;
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+		line-height:1.5;
+		text-align:left;
+		
+}
+
+a { text-decoration: none;
+}
+
+a: link, a visited {
+}
+a: hover, active { color:#29C2E8;
+}
+.mainhed {  height:20%;
+			width:30%;
+			margin: 1%;
+}
+.sidebar.left {
+				bacground-color:#179CBB;
+				width: 25px;
+				display:block;
+				padding:  5px;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				margin: 0, auto;
+				float:right;
+				border: 3 pxk;
+				height: 30px;
+				border-radius: 2px;
+  				overflow: hidden;
+			    position: absolute;
+}
+.nav a:hover, .nav a:active {  
+							 color: #78C7E9;
+							 text-shadow:#A9A4A4;
+							 border:solid;
+							  
+}
+
+.sidebarnav, ul, li, a { color:#974CE0;
+						  text-shadow:#A69F9F;
+						  border:#060000;
+}
+.footer { font-style:italic;
+}
+
+.linesvg {  height:10px;
+			 width:300;
+
+}
+
+
+.content {
+	font-size: larger;
+	line-height: 20px;
+	width: 100%;
+	display: block;
+	padding: 5px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	margin: 0, auto;
+	float: left;
+	border: 3 px;
+	height: 0 0 1 3;
+	border-radius: 2px;
+	overflow: scroll;
+	position: absolute;
+	top: 69px;
+	left: 13px;
+}
+
+.footerbottom { width: 100%;
+			  float: left;
+			  background-color:#C27D14;
+			color:#EDCBCC;
+			display: none;
+}
+
+@media only, screen and (orientation: portrait) and (min-width: 100px)  
+ {	
+
+}
+@media only, screen and (orientation: landscape) and 
+(max-width: 1240px) {	
+
+}
+
+	
+.body { width:auto;
+        font-size:inherit;
+}
+
+
+.mainhed img { width: 100%;
+}
+.sidebarnav {   padding: inherit;
+				width: 100%;
+				margin: 0, auto;
+				text-align:center;
+				display:table-footer-group;
+				text-decoration:none;
+}
+			
+ 
+.body {
+	}
+	
+
+.content {
+	background-color:#E8ECEC;
+	txet-align:left;
+	line-height: 40PX;
+	width: 100%;
+	display: block;
+	padding: 5px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	margin: 0, 0;
+	float: left;
+	border: 3 px;
+	height: 500px;
+	border-radius: 2px;
+	overflow: scroll;
+	position:static;
+	top: 5px;	
+}
+
+.footerbottom { width: 90%;
+			padding: 5px;
+			background-color:#fff;
+			marginbottom:0,2%;
+			color:#EDCBCC;
+			display:compact;
+			align-self:flex-start;
+}
