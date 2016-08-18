@@ -149,4 +149,12 @@ a: hover, active { color:#29C2E8;
 	right: 0;
 	top: 0;
 	bottom: 0;
+	text-align: center;
+}
+
+#header_imgs > img:last-of-type {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
 }
