@@ -8,7 +8,7 @@ html, body{
 
 body { 	color: #990D0F;
 		font-size: 10px;
-		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+		font-family: "Lato", "Calibri", sans-serif;
 		line-height:1.5;
 		text-align:left;
 		
@@ -132,4 +132,14 @@ a: hover, active { color:#29C2E8;
 	right: 0;
 	top: 0;
 	bottom: 0;
+}
+
+.with_side {
+	position: relative;
+}
+
+.with_side > img:first-of-type {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
