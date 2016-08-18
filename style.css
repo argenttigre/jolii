@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+html, body{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
 
 body { 	color: #990D0F;
 		font-size: 10px;
@@ -154,7 +159,7 @@ a: hover, active { color:#29C2E8;
 
 #header_imgs > img:last-of-type {
 	position: absolute;
-	left: 0;
+	right: 0;
 	top: 0;
 	bottom: 0;
 }
